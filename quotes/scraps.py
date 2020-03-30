@@ -5,6 +5,7 @@ from time import sleep
 all_quotes = []
 base_url = 'http://quotes.toscrape.com/'
 url = "/page/1"
+print('hi')
 while url:
     res = requests.get(base_url+url)
     print(f"now scraping {base_url}{url}")
